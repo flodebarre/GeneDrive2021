@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Gene Drive Workshop, 2021</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-amber w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-amber" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#speakers" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Speakers</a>
+    <a href="#schedule" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
+    <a href="#registration" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Registration</a>
+    <a href="#orga" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Organizers</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#speakers" class="w3-bar-item w3-button w3-padding-large">Speakers</a>
+    <a href="#schedule" class="w3-bar-item w3-button w3-padding-large">Schedule</a>
+    <a href="#registration" class="w3-bar-item w3-button w3-padding-large">Registration</a>
+    <a href="#orga" class="w3-bar-item w3-button w3-padding-large">Organizers</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-amber w3-center" style="padding:0px 0px 0px 0px">
+  <p id="home">&nbsp;</p>
+  <h1 class="w3-margin">Gene Drive Workshop</h1>
+  <p> 21-24 June, 2021</p>
+</header>
+
+<!-- First Grid -->
+  <div class="w3-content">
+    &nbsp;
+    <div class="w3-container w3-light-grey w3-row-padding">
+      <p class="w3-text-black w3-padding-32"> Texte d'introduction : objectifs du workshop.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>This meeting will take place fully <b>online</b>. </p>
+      </div>
+
+      <h1 id="speakers">Speakers</h1>
+      <p>This is a tentative list of speakers</p>
+      <p><ul style="list-style: none;">
+        <li>Riri</li>
+        <li>Fifi (confirmed)</li>
+        <li>Loulou</li>
+      </ul></p>
+
+      <h1 id ="schedule">Schedule</h1>
+
+      <p class="w3-text-black w3-padding-32">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=NnY1aWVxZjNlczk3OWNlMnNobTM5bGxrcWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;mode=AGENDA&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&dates=20210601/20210630" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+      </p>
+
+
+      <h1 id ="registration">Registration</h1>
+      <p>Google form?</p>
+</div>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1 id="orga">Organizers</h1>
+    <p>This workshop is organized by
+      <ul style="list-style:none;">
+        <li>Florence D&eacute;barre</li>
+        <li>Nicolas Rode</li>
+        <li>Virginie Courtier</li>
+     </ul>
+     This workshop is organized thanks to funding from ANR REF.
+    </p>
+
+    <h1 id="contact">Contact</h1>
+    <p>You can reach the organizers by email xxx (liste de diffusion?).</p>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+ <p>css modified from <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
