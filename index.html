@@ -148,6 +148,24 @@ There is no fee to attend the workshop. </p>
         <li>2021-05-17: Registration for contributed talks closes</li>
         <li>2021-06-13: Registration for other attendees closes</li>
       </ul>
+
+      <h1 id ="test">Test</h1>
+
+    <div id="calendar-container"></div>
+  <!-- end essai -->
+  
+      <p class="w3-text-black w3-padding-32">
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
+      <script type="text/javascript">
+       var timezone = encodeURIComponent(jstz.determine().name()); 
+       var pref = '<iframe src="https://calendar.google.com/calendar/embed?height=1400&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=NnY1aWVxZjNlczk3OWNlMnNobTM5bGxrcWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73&amp;mode=AGENDA&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&dates=20210601/20210630';
+       var suff = '" style="border:solid 1px #777" width="600" height="1400" frameborder="0" scrolling="auto"></iframe>';
+       var iframe_html = pref + timezone + suff;
+       document.getElementById('calendar-container').innerHTML = iframe_html;
+      </script>      
+      </p>
+
+
 </div>
 
 
